@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100hv;
+    margin: 0;
+}
+
+play-container {
+    margin-top: 10px;
+}
+
+.controls {
+    margin-top: 10px;
+}

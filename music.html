@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="music.css">
+    </head>
+    <body>
+        <div class="player-container">
+            <audio id="audio-player" controls>
+                <source src="your-audio-file.mp3" type="audio/mp3">
+                <!--add your music file here-->
+            </audio>
+            <div class="controls">
+                <button id="play-pause-btn">play/pause</button>
+                <input type="range" id="volume-slider" value="100" max="100">
+            </div>
+        </div>
+        <script src="music.js"></script>
+    </body>
+ </html>
